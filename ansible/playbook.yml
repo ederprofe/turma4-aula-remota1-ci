@@ -1,0 +1,19 @@
+---
+- name: Configurar Azure Function
+  hosts: localhost
+  connection: local
+  vars:
+    ansible_python_interpreter: '{{ ansible_playbook_python }}'
+
+  tasks:
+    - name: Garantir que a Function esteja Always On e com Python 3.10
+      azure_rm_webapp:
+        resource_group: senactfresourcegroup
+        name: senaclabazurefunction
+        plan: azure-functions-senaclab-service-plan
+        state: present
+        always_on: true
+        frameworks:
+          - name: "python"
+            version: "3.10"
+      register: azure_function
