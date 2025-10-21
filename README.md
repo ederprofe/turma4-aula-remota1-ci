@@ -28,7 +28,7 @@ LICENSE                # MIT
 
 ---
 
-## 🚀 Como usar (localmente)
+##  Como usar (localmente)
 1. **Clone** o repositório (após aceitar a atividade no Classroom):
    ```bash
    git clone https://github.com/<ORG>/<REPO-GERADO-PARA-VOCE>.git
@@ -60,7 +60,7 @@ Acompanhe o resultado na aba **Actions** do GitHub.
 
 ---
 
-## 🧪 Entrega (sugestão)
+##  Entrega (sugestão)
 1. Faça commits frequentes e claros:
    ```bash
    git add .
@@ -72,7 +72,7 @@ Acompanhe o resultado na aba **Actions** do GitHub.
 
 ---
 
-## 🧰 Requisitos e dicas
+##  Requisitos e dicas
 - **Terraform ≥ 1.1.0** e provider `azurerm ~> 3.0.2` (ajustável conforme necessidade).
 - **Ansible** instalado (em Windows use **WSL**).
 - Mantenha `.github/workflows/ci.yml` no caminho correto.
@@ -81,12 +81,12 @@ Acompanhe o resultado na aba **Actions** do GitHub.
 
 ---
 
-## 📚 Referências
+##  Referências
 - Terraform – Instalação e guia rápido: https://developer.hashicorp.com/terraform/tutorials/azure-get-started/install-cli
 - Ansible – Instalação: https://docs.ansible.com/ansible/latest/installation_guide/intro_installation.html
 - GitHub Actions + GitOps (AKS): https://learn.microsoft.com/en-us/azure/architecture/guide/aks/aks-cicd-github-actions-and-gitops
 
 ---
 
-**Bons commits e boas automações!**  
-Prof. Éder
+**Bons commits !**  
+Prof. Eder Mauricio
